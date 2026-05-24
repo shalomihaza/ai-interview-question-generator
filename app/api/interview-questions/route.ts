@@ -91,7 +91,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         error:
-          "Provide a generic job title using letters, numbers, and common punctuation only.",
+          "Provide a job title using letters, numbers, and common punctuation only.",
       },
       { status: 400 }
     );

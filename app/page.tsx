@@ -75,10 +75,10 @@ export default function HomePage() {
     <main className="page-shell">
       <section className="card">
         <p className="eyebrow">AI interview practice</p>
-        <h1>Generate 3 thoughtful interview questions</h1>
+        <h1>Interview Question Generator</h1>
         <p className="intro">
-          Enter a generic job title and the app will return role-specific
-          interview questions. Use {exampleTitle} as the primary example.
+          Enter a job title and the app will return role-specific interview
+          questions.
         </p>
 
         <form className="question-form" onSubmit={handleSubmit}>
