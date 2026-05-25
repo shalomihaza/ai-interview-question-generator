@@ -2,6 +2,10 @@
 
 This project is a small Next.js app that accepts a generic job title and returns 3 thoughtful interview questions tailored to that role.
 
+## Live URL
+
+https://ai-interview-question-generator-theta.vercel.app/
+
 ## Requirements
 
 - Node.js 20 or newer
@@ -35,4 +39,3 @@ Deploy to Vercel with the same `GEMINI_API_KEY` environment variable configured 
 
 1. Submit `Customer Success Manager` and confirm the page shows 3 questions.
 2. Submit another generic role such as `Product Manager` and confirm the output changes by role.
-3. Remove the API key and confirm the UI shows a controlled error state.
